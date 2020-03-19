@@ -11,6 +11,9 @@ __Usuarios y recursos en Linux__
 >                                     Por: Marcos blah blah
 >                                          Eric Dürr Sierra
 
+
+
+
 ## Índice
 - [Introducción](INTROD.md "introducción al documento, sus objetivos y contexto")
 
