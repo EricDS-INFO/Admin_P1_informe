@@ -1,8 +1,8 @@
 
-# Informe de la primera práctica de Administración de Sistemas
-
+# Informe de la práctica 1 de Administración de Sistemas
+___
 ![imagen](portada.jpg)
-
+___
 
 __Usuarios y recursos en Linux__
 
