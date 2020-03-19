@@ -7,12 +7,17 @@ ___
 
 
 __Usuarios y recursos en Linux__
-
+>
+>
+>
 >                                     Por: Marcos blah blah
 >                                          Eric Dürr Sierra
-
-
-
+>                       
+>           Escuela Superior de Ingeniería y Tecnología (ESIT) - ULL 
+>
+>
+>
+>
 
 ## Índice
 - [Introducción](INTROD.md "introducción al documento, sus objetivos y contexto")
