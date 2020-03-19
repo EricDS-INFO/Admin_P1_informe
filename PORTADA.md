@@ -1,4 +1,10 @@
 
-<center> <h1>Informe de la primera práctica de Administración de Sistemas </h1></center>
+# Informe de la primera práctica de Administración de Sistemas
 
 ![imagen](portada.jpg)
+
+
+__Usuarios y recursos en Linux__
+
+>                           Por: Marcos blah blah
+>                                Eric Dürr Sierra
