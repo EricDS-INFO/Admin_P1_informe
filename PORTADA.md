@@ -35,4 +35,4 @@ __Usuarios y recursos en Linux__
 
 
 
-### Versión [0.1]
+###                                                                      Versión [0.1]
