@@ -7,3 +7,9 @@
 > Lista y explicación de objetivos
 
 > imagen esquemática del sistema
+
+
+
+<br>
+
+![logo](icono-ull-negro.png)

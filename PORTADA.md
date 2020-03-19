@@ -5,14 +5,13 @@ ___
 
 ## __Usuarios y recursos en Linux__
 
-                            Autores: 
-                                       Marcos apellido1 apellido2   
-                                       (alu0101027005)
-                                       
-                                       Eric Dürr Sierra             
-                                       (alu0101027005)
-    Escuela Superior de Ingeniería y Tecnología - ULL  
-![logo](icono-ull-negro.png)
+                             
+                Autores:    Marcos apellido1 apellido2   
+                            
+                            Eric Dürr Sierra             
+
+         Escuela Superior de Ingeniería y Tecnología - ULL  
+
 
 ## Índice
 - [Introducción](INTROD.md "introducción al documento, sus objetivos y contexto")
@@ -28,5 +27,6 @@ ___
 - [Glosario y lista de comandos](GLOSARIO.md "Lista de definifiones y breve explicación de los comandos y términos más destacados de la práctica")
 - [Referencias](REFERENCIAS.md "Documento con enlaces a referencias empleadas en el proceso de la práctica")
 
+<br>
 
-### _____________________________________________________        Versión [0.1]
+![logo](icono-ull-negro.png)
