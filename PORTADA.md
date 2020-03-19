@@ -13,7 +13,7 @@ __Usuarios y recursos en Linux__
 >                                                                Por: Marcos blah blah
 >                                                                     Eric Dürr Sierra
 >                       
->           Escuela Superior de Ingeniería y Tecnología (ESIT) - ULL 
+>                             Escuela Superior de Ingeniería y Tecnología (ESIT) - ULL
 >
 >
 >
@@ -32,3 +32,7 @@ __Usuarios y recursos en Linux__
 - [Resumen y conclusiones](RESUMEN.md "Resumen sobre el proceso seguido y las conclusiones consecuentes")
 - [Glosario y lista de comandos](GLOSARIO.md "Lista de definifiones y breve explicación de los comandos y términos más destacados de la práctica")
 - [Referencias](REFERENCIAS.md "Documento con enlaces a referencias empleadas en el proceso de la práctica")
+
+
+
+### Versión [0.1]
