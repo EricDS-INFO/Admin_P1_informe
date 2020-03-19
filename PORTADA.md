@@ -10,8 +10,8 @@ __Usuarios y recursos en Linux__
 >
 >
 >
->                                     Por: Marcos blah blah
->                                          Eric Dürr Sierra
+>                                                                Por: Marcos blah blah
+>                                                                     Eric Dürr Sierra
 >                       
 >           Escuela Superior de Ingeniería y Tecnología (ESIT) - ULL 
 >
