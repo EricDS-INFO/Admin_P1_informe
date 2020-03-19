@@ -1,1 +1,1 @@
-[imagen](portada.jpg)
+![imagen](portada.jpg)
