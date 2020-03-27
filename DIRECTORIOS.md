@@ -1,5 +1,4 @@
-
-
+## Acciones tomadas para el manejo de directorios y permisos de los usuarios del sistema 
 
 
 
