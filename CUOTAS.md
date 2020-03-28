@@ -14,10 +14,10 @@ Con esta serie de comandos lo que hacemos es lo siguiente, primero montamos el a
 
 //insertar foto edquota usu1//
 
-Una vez que hayamos hecho este proceso para cada usuario, el comando __edquota -t__ nos abre un fichero en el que cambiaremos el periodo de gracia a 2 días.
+Una vez que hayamos hecho este proceso para cada usuario, el comando __edquota -t__ nos abre un fichero en el que cambiaremos el periodo de gracia a *2 días*.
 
 >Para comprobar que se ha realizado correctamente las operaciones de las cuotas de disco podemos usar el comando:
->__repquota /home
+>__repquota /home__
 
 //insertar foto repquota /home//
 
