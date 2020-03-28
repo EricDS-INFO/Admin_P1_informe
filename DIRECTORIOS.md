@@ -5,10 +5,14 @@
     cuyo nombre debe coincidir con el de la cuenta del usuario. Sin embargo, no es necesaria la creación de 
     este directorio personal del usuario , puesto que se crea automáticamente con la creación de usuario.
 
-    Además, ningún usuario puede entrar en el directorio personal de otro usuario; sin embargo, aunque un usuario puede crear y borrar todo tipo de archivos en su propio directorio personal, no podrá cambiar los permisos de ese directorio.
+    Además, ningún usuario puede entrar en el directorio personal de otro usuario; sin embargo, aunque un usuario
+    puede crear y borrar todo tipo de archivos en su propio directorio personal, no podrá cambiar los permisos de
+    ese directorio.
 
 ### __Permisos del directorio personal__
-    Para que ningún usuario pueda acceder al directorio personal ni a los ficheros de otro usuario, lo primero que debemos hacer es cambiar los permisos de cada directorio personal. Para ello, utilizaremos el comando __chmod__ seguido de los permisos que se quieran permitir y el nombre del directorio: 
+    Para que ningún usuario pueda acceder al directorio personal ni a los ficheros de otro usuario, lo primero que
+    debemos hacer es cambiar los permisos de cada directorio personal. Para ello, utilizaremos el comando __chmod__ 
+    seguido de los permisos que se quieran permitir y el nombre del directorio: 
 
 > __chmod 770 usu1__
 > __chmod a+rwx,o-rwx usu1__
