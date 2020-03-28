@@ -1,6 +1,9 @@
 ## __Acciones tomadas para el manejo de directorios y permisos de los usuarios del sistema__
 
-    Ahora vamos a analizar cómo se ha manejado los directorios personales de cada usuario y los permisos que se le asignan. Todo usuario del sistema debe poseer un subdirectorio del propio directorio __/home__ cuyo nombre debe coincidir con el de la cuenta del usuario. Sin embargo, no es necesaria la creación de este directorio personal del usuario , puesto que se crea automáticamente con la creación de usuario.
+    Ahora vamos a analizar cómo se ha manejado los directorios personales de cada usuario y los permisos 
+    que se le asignan. Todo usuario del sistema debe poseer un subdirectorio del propio directorio __/home__
+    cuyo nombre debe coincidir con el de la cuenta del usuario. Sin embargo, no es necesaria la creación de 
+    este directorio personal del usuario , puesto que se crea automáticamente con la creación de usuario.
 
     Además, ningún usuario puede entrar en el directorio personal de otro usuario; sin embargo, aunque un usuario puede crear y borrar todo tipo de archivos en su propio directorio personal, no podrá cambiar los permisos de ese directorio.
 
