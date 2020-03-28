@@ -1,7 +1,9 @@
 ## Administración de usuarios y contraseñas
 
     En primer lugar, crearemos un conjunto de usuarios usu1, usu2, usu3, usu4, usu5, usu6, que deben cambiar 
-    cada3 meses su contraseña, que coincidirá con el nombre de usuario. Además, será necesario notificar a los usuarios 1 día antes de que caduque su contraseña, y 2 días después de su caducidad, la cuenta quedará desactivada.
+    cada3 meses su contraseña, que coincidirá con el nombre de usuario. Además, será necesario notificar a los
+    usuarios 1 día antes de que caduque su contraseña, y 2 días después de su caducidad, la cuenta quedará
+    desactivada.
 
 Será necesaria la elaboración de 2 pasos previos que servirán para proceder a la realización de este primer apartado de la práctica:
 
