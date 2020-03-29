@@ -2,12 +2,11 @@
 
     En el siguiente apartado se pretende exponer cómo se ha automatizado el proceso de
     adición de un nuevo usuario a nuestro sistema.
-
-
-![bash-logo-image](bash-portada.png "logo de bash para encabezar")
-
-
 > Por medio del script ["usuarios.sh"](usuarios.sh "script del que se habla en este apartado")
+
+<br>  
+![bash-logo-image](bash-portada.png "logo de bash para encabezar")
+<br>
 
 Incluir un usuario conlleva una serie de procesos tales como la modificación de algunos 
 permisos, credenciales de contraseña y demás características que deben hacerse por cada
