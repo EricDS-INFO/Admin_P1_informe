@@ -11,7 +11,7 @@ uno de los nuevos participantes.
 Este proceso puede resultar, a parte de tedioso, un **momento en el que pueden cometerse errores**. 
 
 Es entonces donde escribir un *script* que automatice el proceso y que revise
-aquellas tareas que no requieran de intervención personal aporta una solución y una meejoría 
+aquellas tareas que no requieran de intervención personal aporta una solución y una mejoría 
 en cuanto a la eficiencia del sistema.
 
 ***
@@ -42,7 +42,7 @@ el nombre del usuario actual.
 
 
 **Una vez verificado** que la identidad del usuario que lanza la orden es **el administrador** 
-(O que al menos actúa como tal), se procede a la **comprobación** del que se ha proporcionado
+(o que al menos actúa como tal), se procede a la **comprobación** de que se ha proporcionado
 un **nombre de usuario** para poder llevar a cabo la orden. Nuevamente haciendo uso de los
 condicionales.
 ```BASH
@@ -77,6 +77,35 @@ Las siguientes lineas de código corresponden a lo explicado:
     fi
 ```
 > *$1* se expande con el primer argumento proporcionado, que debería ser el nombre de usuario.
+
+
+Finalmente, lo que resta es ejecutar la serie de **comandos que registran a nuestro usuario** y 
+le proporcionan una carpeta personal. 
+
+```BASH
+    useradd $newuser
+    echo $newuser:$newpasswd | chpasswd
+    echo "Added user: $newuser"
+    echo "User's password for $newuser is $newpasswd. Change it as soon as possible."
+    echo "----- creating home directory -----"
+    mkdir /home/$newuser
+    echo "---- changed permissions -----"
+    chgrp $newuser /home/$newuser 
+    chmod u+rwx /home/$newuser
+    chmod g+rwx /home/$newuser 
+    chmod o-rwx /home/$newuser
+```
+> Se puede apreciar que la contraseña proporcionada es el mismo nombre dado para el usuario
+> .Sin embargo se advierte de cambiarla cuanto antes.
+
+
+Este *script* es, en muchos aspectos, mejorable. Por ejemplo:
+- modificando también aspectos tales como las opciones en */etc/shadow* 
+- generando una contraseña aleatoria que se le suministre solo al usuario
+- permitiendo más argumentos para la adición a grupos de trabajo
+
+Sin embargo por cuestiones de falta de tiempo no se ha ahondado en estos aspectos de cara al 
+día de la entrega.
 
 <br>
 
