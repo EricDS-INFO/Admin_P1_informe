@@ -44,7 +44,42 @@ configuración:
     > Se ahonda más adelante sobre este aspecto
 
 
+### Configuración de la máquina virtual
+
+El proceso para iniciar y configurar una máquina virtual mediante el oVirt es tan sencillo 
+como emplear la interfaz gráfica para crearla y luego en los menús de selección introducir
+las opciones. 
+
+No vamos a ahondar mucho más en este aspecto ya que está expuesto y documentado en el
+[campus virtual](https://campusvirtual.ull.es/1920/pluginfile.php/253251/mod_resource/content/3/ull-cloud.pdf)
+
+
 ### Configuración manual de la interfaz de red
+
+Tras haber hecho la instalación de la máquina y configurado algunos aspectoos del sistema, toca el turno de establecer una interfaz de red que comunique el cliente y el servidor.
+
+En una primera instancia debemos acceder al directorio del sistema operativo que maneja los archivos dedicados a esta labor, osea */etc/sysconfig/network-scripts*. Es en esta ruta donde tendremos que echar mano de crear el archivo *ifcfg-eth[número]* que contendrá la información 
+pertinente a un puerto de comunicación ethernet.
+1. realizamos una copia de alguno ya existente. En caso general *ifcfg-eth0*
+2. modificamos algunas de las opciones (BOOTPROTO, DEVICE, ...)
+3. añadimos la opción de dirección IP y NETMASK acorde a nuestro vínculo de comunicación
+
+El servidor y el cliente se corresponden por una dirección IP similar que los identifica por pares, es decir *192.168.50.numero_par* *192.168.50.numero_impar*
+
+Tras haber hecho esta configuración solamente resta reiniciar el servicio
+> Para esto hemos usado el comando *systemctl [opción] [servicio]*
+
+
+Este proceso hay que realizarlo tanto en el cliente como el servidor, determinando una 
+dirección IP a cada uno. Se puede comprobar dicho vínculo usando el comando *ping*
+> Su uso es: *ping dirección*
+
+De establecerse con éxito una conexión se empezarían a mostrar paquetes, tal y como muestra la imagen siguiente:
+
+![ping example](descargar.jfif "exemplo de resultado exitoso de ping")
+
+
+
 <br>
 
 ![logo](icono-ull-negro.png)
