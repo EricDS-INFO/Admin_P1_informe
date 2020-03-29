@@ -21,6 +21,11 @@ En el programa que hemos creado empleando **bash** cuidamos que:
 2. Las contraseñas sean semejantes al nombre de usuario
 3. Se cree la carpeta personal del usuario con los debidos permisos
 
+    Se puede observar como el programa realiza las mismas acciones que se cometen durante
+    el guión de la práctica, tal y como se ha ido indicando en el informe pero esta vez en 
+    una sola orden.
+
+    El siguiente paso va a ser analizar paso por paso como funciona el script.
 
 
 <br>
