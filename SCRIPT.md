@@ -29,6 +29,17 @@ En el programa que hemos creado empleando **bash** cuidamos que:
 El siguiente paso va a ser **analizar** paso por paso como funciona el *script*.
 
 
+Primero es crucial **comprobar que el usuario que ejecuta el *script* es root** para
+ello nos servimos de los condicionales y del valor por expansión *$USER* que revelará
+el nombre del usuario actual.
+```BASH
+    if [ $USER == "root" ]; then
+        ...
+    else
+    echo "Denied, not enough permissions"
+    fi
+```
+
 <br>
 
 ![logo](icono-ull-negro.png)
