@@ -76,7 +76,7 @@ dirección IP a cada uno. Se puede comprobar dicho vínculo usando el comando *p
 
 De establecerse con éxito una conexión se empezarían a mostrar paquetes, tal y como muestra la imagen siguiente:
 
-![ping example](descargar.jfif "exemplo de resultado exitoso de ping")
+![ping example](descargar.jfif "ejemplo de resultado exitoso de ping")
 
 
 
