@@ -36,9 +36,47 @@ el nombre del usuario actual.
     if [ $USER == "root" ]; then
         ...
     else
-    echo "Denied, not enough permissions"
+        echo "Denied, not enough permissions"
     fi
 ```
+
+
+**Una vez verificado** que la identidad del usuario que lanza la orden es **el administrador** 
+(O que al menos actúa como tal), se procede a la **comprobación** del que se ha proporcionado
+un **nombre de usuario** para poder llevar a cabo la orden. Nuevamente haciendo uso de los
+condicionales.
+```BASH
+    if [ $# -lt 1 ]; then
+        echo "---Debe proporcionar un nombre de usuario para poder comenzar---"
+        echo "Ejemplo: "$0 "my_username"
+        exit
+    fi
+```
+En este caso, tal y como se observa en el código expuesto, se realiza una comprobación gracias
+a la expansión del número de argumentos dada por *$#*. 
+
+De ser esta menor que 1 se procederá a imprimir un mensaje de ayuda y a salir del programa.
+> *$0* corresponde a la orden leida por bash, que es el nombre del programa.
+
+
+Tras la verificación de estos aspectos esenciales se prosigue a **dar valores a las variables**
+y **comprobar su duplicidad**. Ya que de existir en el sistema un usuario con el nombre
+proporcionado **el programa acabaría en error.** Para comprobar esto se emplea una sentencia
+de bash que devuelve la existencia del usuario (*getent*) en el fichero "passwd". En caso de 
+no ser nula se proporciona un mensaje de error y se procede a terminar el programa de 
+inmediato.
+
+Las siguientes lineas de código corresponden a lo explicado:
+```BASH
+    newuser=$1
+    newpasswd=$1
+   
+    if  getent passwd $newuser > /dev/null 2>&1; then
+        echo "user already exists"
+        exit
+    fi
+```
+> *$1* se expande con el primer argumento proporcionado, que debería ser el nombre de usuario.
 
 <br>
 
