@@ -43,6 +43,8 @@ configuración:
 - Ambas partes serán configuradas en cuanto a la interconectividad
     > Se ahonda más adelante sobre este aspecto
 
+
+### Configuración manual de la interfaz de red
 <br>
 
 ![logo](icono-ull-negro.png)
