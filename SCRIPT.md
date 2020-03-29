@@ -5,7 +5,9 @@
 > Por medio del script ["usuarios.sh"](usuarios.sh "script del que se habla en este apartado")
 
 <br>  
+
 ![bash-logo-image](bash-portada.png "logo de bash para encabezar")
+
 <br>
 
 Incluir un usuario conlleva una serie de procesos tales como la modificación de algunos 
