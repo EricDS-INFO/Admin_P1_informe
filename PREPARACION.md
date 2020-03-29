@@ -7,11 +7,12 @@
 
 
 ![iaas image](IAAS.jpg "imagen de cabecera sobre IaaS")
-> imagen de cabecera de lo que sería un servicio Iaas
+> imagen de cabecera de lo que sería un servicio IaaS
 
     Este tipo de servicios permite gestionar de maner ainstantanea una infraestructura 
     computacional que es gestionada y provisionada directamente desde internet. Evitamos
-    muchos quebraderos de cabeza respecto a cuestiones de hardware y disponibilidad de espacio. Este tipo permite aumentar o decrementar muchas características bajo demanda.
+    muchos quebraderos de cabeza respecto a cuestiones de hardware y disponibilidad de 
+    espacio. Este tipo permite aumentar o decrementar muchas características bajo demanda.
 
 El objetivo de esta parte de la práctica, que fue la primera, era montar una infraestructura 
 sobre la cual poder trabajar todos aquellos aspectos a desarrollar durante las prácticas.
