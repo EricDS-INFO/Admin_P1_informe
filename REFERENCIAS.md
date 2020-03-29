@@ -7,6 +7,7 @@
 
 >[Enlace sobre la administración de usuarios](https://www.linuxtotal.com.mx/index.php?cont=info_admon_008)
 
+>[Enlace sobre el uso del comando chage](https://www.geeksforgeeks.org/chage-command-in-linux-with-examples/)
 
 
 <br>
