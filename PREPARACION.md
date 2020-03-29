@@ -6,7 +6,7 @@
 > IaaS hace referencia a Infrastructure as a Service, más información en [Microsoft Azure](https://azure.microsoft.com/en-us/overview/what-is-iaas/).
 
 
-![iaas image](IAAS.jpng "imagen de cabecera sobre IaaS")
+![iaas image](IAAS.jpg "imagen de cabecera sobre IaaS")
 > imagen de cabecera de lo que sería un servicio Iaas
 
     Este tipo de servicios permite gestionar de maner ainstantanea una infraestructura 
