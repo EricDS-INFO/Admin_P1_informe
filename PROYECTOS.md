@@ -20,10 +20,10 @@ que leer los archivos siempre y cuando supervise el proyecto. En caso contrario 
 ningún permiso
 
 **La siguiente tabla ilustra la división de responsabilidades que define el modelo:**
-| usuario   |                       Proyecto                    |
-|:---:|:-------------------------------------------------:|
-|    | Aeropuerto        | CentroComercial   |   Parque  |
-|    |:-------------:| :-------------:|:-----:|
+|                            Proyecto                    |
+|:-------------------------------------------------:|
+|Usuario| Aeropuerto        | CentroComercial   |   Parque  |
+|:---:    |:-------------:| :-------------:|:-----:|
 |usu1    | col 3 is          | right-aligned     | $1600     |
 |usu2    | col 2 is          | centered          |   $12     |
 |usu3    | zebra stripes     | are neat          |    $1     |
