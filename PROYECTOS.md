@@ -22,7 +22,6 @@ ningún permiso
 **La siguiente tabla ilustra la división de responsabilidades que define el modelo:**
 | Proyecto |
 | :----------------------------------: |
-
 | Usuario  | Aeropuerto        | CentroComercial   |   Parque  |
 | :---:    | :-------------: | :-------------: | :-----: |
 |usu1    | col 3 is          | right-aligned     | $1600     |
