@@ -35,38 +35,13 @@ Para realizar este proceso es necesario modificar el archivo **/etc/shadow**, me
 
 Con la opción **maxdays** modificamos el tiempo máximo que puede transcurrir con la contraseña actual. Una vez sobrepasado este tiempo es obligatorio su cambio. En cuanto a **warndays**, su uso es necesario para indicar que el usuario será notificado un día antes (en este caso) de la caducidad de su contraseña. Por último, la opción **inactive** indica los días que habrá entre la caducidad de la contraseña y el bloqueo de la cuenta del usuario.
 
-//insertar foto etcshadow//S
+![/etc/shadow](etcshadow.PNG)
 
 
-/
-│
-└───boot
-│
-└───dev   
-│   
-└───etc
-|
-└───export       
-│       
-│
-└───home
-│   │
-│   └───ejec1
-│   │
-│   └───ejec2
-│   │
-│   └───usu1
-│   │
-│   └───usu2
-│   │
-│   └───usu3
-│   │
-│   └───usu4
-│   │
-│   └───usu5
-│   │
-│   └───usu6
-│   
+> Acontinuación mostramos el árbol de directorios
+
+![arbol](arboldirect.PNG)
+
 
 
 
