@@ -1,5 +1,7 @@
 
 # Informe de la práctica 1 de Administración de Sistemas
+                    Escuela Superior de Ingeniería y Tecnología - ULL  
+
 ![portada](banner_portada.jpeg)
 ___
 
@@ -14,11 +16,10 @@ Marcos Padilla Herrera
 Eric Dürr Sierra 
 >(<a href="mailto:alu0101027005@ull.edu.es">alu0101027005</a>)            
 
-                    Escuela Superior de Ingeniería y Tecnología - ULL  
 
-> El siguiente documento pretende hacer acopio de los distintos aspectos y conclusiones 
-> experimentados a lo largo  de la primera práctica de Administración de Sistemas. Más 
-> adelante encontrará una introducción acerca de la práctica.
+     El siguiente documento pretende hacer acopio de los distintos aspectos y conclusiones 
+    experimentados a lo largo  de la primera práctica de Administración de Sistemas. Más 
+    adelante encontrará una introducción acerca de la práctica.
 
 ## Índice
 - [Introducción](INTROD.md "introducción al documento, sus objetivos y contexto")
