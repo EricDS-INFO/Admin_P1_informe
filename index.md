@@ -22,7 +22,7 @@ Eric Dürr Sierra
     adelante encontrará una introducción acerca de la práctica.
 
 ## Índice
-- [Introducción](introd.md)
+- [Introducción](INTROD.md)
 - [Preparación del sistema](PREPARACION.md)
 - [Creación de usuarios y contraseñas](USUARIOS.md)
 - [Directorios y permisos](DIRECTORIOS.md)
