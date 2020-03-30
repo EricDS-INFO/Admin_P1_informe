@@ -38,13 +38,12 @@ Se nos presenta la siguiente situación de una Organización:
 
 + Utilización del sticky bit 
 
-+ Listas de control de acceso (ACL’s
++ Manejo de Listas de Control de Acceso (ACL’s)
 
-+ Cuotas de disco
++ Manejo de Cuotas de Disco
 
 
 
-> 
 
 
 <br>
