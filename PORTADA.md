@@ -6,7 +6,7 @@ ___
 ## __Usuarios y recursos en Linux__
 
                              
-                Autores:    Marcos apellido1 apellido2   
+                Autores:    Marcos Padilla Herrera  
                             
                             Eric Dürr Sierra             
 
