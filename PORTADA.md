@@ -6,9 +6,12 @@ ___
 ## __Usuarios y recursos en Linux__
 
                              
-Autores:    Marcos Padilla Herrera 
->(alu)                      
-            Eric Dürr Sierra 
+Autores:    
+
+Marcos Padilla Herrera 
+>(alu)    
+
+Eric Dürr Sierra 
 >(<a href="mailto:alu0101027005@ull.edu.es">alu0101027005</a>)            
 
             Escuela Superior de Ingeniería y Tecnología - ULL  
