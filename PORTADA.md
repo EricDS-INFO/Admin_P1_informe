@@ -29,8 +29,6 @@ Eric Dürr Sierra
 - [Cuotas de disco](CUOTAS.md "Explicaicón sobre las cuotas de los usuarios")
 - [Proyectos y ejecutivos](PROYECTOS.md "Explicación de los aspectos relativos a los proyectos")
 - [Script para la creación de usuarios](SCRIPT.md "Desarrollo de un script que agiliza tareas")
-- [Dificultades experimentadas](DIFICULTADES.md "Obstaculos observados en el proceso de la práctica")
-- [Glosario y lista de comandos](GLOSARIO.md "Lista de definifiones y breve explicación de los comandos y términos más destacados de la práctica")
 - [Referencias](REFERENCIAS.md "Documento con enlaces a referencias empleadas en el proceso de la práctica")
 
 <br>
