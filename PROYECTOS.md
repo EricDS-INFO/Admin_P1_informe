@@ -20,7 +20,7 @@ que leer los archivos siempre y cuando supervise el proyecto. En caso contrario 
 ningún permiso
 
 **La siguiente tabla ilustra la división de responsabilidades que define el modelo:**
-| Usuario |          Proyecto                    |||
+| Usuario |          Proyectos                    |||
 |   :---:  | :---:      | :---:           | :---:  |
 |          | Aeropuerto | CentroComercial | Parque |
 |usu1      |   | · |   |
@@ -33,5 +33,39 @@ ningún permiso
 |ejec2     | · | · |   |
 > El punto "*·*" marca que el usuario ha sido asignado al proyecto
 <br>
+
+    La principla diferencia, que no es ilustrada, entre ejecutivos y usuarios es el tipo de 
+    acceso. Los usuarios, en sus proyectos, van a requerir de permisos de lectura y escritura
+    . Sin embargo los ejecutivos, en los proyectos asignados, solo podrán entrar y leer. De no serles asignados solo podrán revisar el contenido del directorio de cada proyecto.
+
+> Más adelante se explica como se ha procedido para permitir hacer estas operaciones
+
+La estructura de directorios que engloba esta organización se compone por una carpeta por 
+cada proyecto más una denominada *comun* a la cual podrá acceeder cualquier usuario del 
+sistema. Con la salvedad de que en esta última sólo el usuario que crea el archivo podrá  
+borrar sus propios archivos, de modo que todos podrán modificar y crear cualuier archivo
+
+**La estructura del arbol de directorios es la siguiente:**
+```js
+    / (raíz)
+    │
+    └───export
+    │   │
+    │   └───proyectos
+    |       |
+    │       └───aeropuerto
+    |       |
+    │       └───CentroComercial
+    |       |
+    │       └───Parque
+    |       |
+    │       └───Comun
+    │   
+        · · ·
+```
+
+### Cómo se han configurado los directorios
+
+Dado que buscamos que solo los usuarios asignados a un poroyecto concreto
 
 ![logo](icono-ull-negro.png)
