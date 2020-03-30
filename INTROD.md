@@ -15,7 +15,7 @@ Se nos presenta la siguiente situación de una Organización:
 
 + La distribuición de los usuarios por proyectos es de la siguiente forma:
 
-![distrib](distribuicionusers.PNG)
+![distrib](distribuicion.PNG)
 
 + Los ejecutivos asociados a un determinado proyecto podrán leer la información de  ese proyecto, pero no podrán modificarla
 
