@@ -14,7 +14,7 @@ Marcos Padilla Herrera
 Eric Dürr Sierra 
 >(<a href="mailto:alu0101027005@ull.edu.es">alu0101027005</a>)            
 
-            Escuela Superior de Ingeniería y Tecnología - ULL  
+                    Escuela Superior de Ingeniería y Tecnología - ULL  
 
 > El siguiente documento pretende hacer acopio de los distintos aspectos y conclusiones 
 > experimentados a lo largo  de la primera práctica de Administración de Sistemas. Más 
