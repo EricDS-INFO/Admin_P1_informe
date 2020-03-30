@@ -7,7 +7,12 @@
 
 >[Enlace sobre la administración de usuarios](https://www.linuxtotal.com.mx/index.php?cont=info_admon_008)
 
+>[Enlace a RedHat sobre permisos](https://www.redhat.com/sysadmin/introduction-chmod)
+
 >[Enlace sobre el uso del comando chage](https://www.geeksforgeeks.org/chage-command-in-linux-with-examples/)
+
+>[Enlace sobre las ACls](https://www.geeksforgeeks.org/access-lists-acl/)
+
 
 
 <br>
