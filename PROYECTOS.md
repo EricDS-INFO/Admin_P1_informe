@@ -20,7 +20,7 @@ que leer los archivos siempre y cuando supervise el proyecto. En caso contrario 
 ningún permiso
 
 **La siguiente tabla ilustra la división de responsabilidades que define el modelo:**
-| Usuario |          |Proyecto|                    |
+| Usuario |          Proyecto                    |||
 |   :---:  | :---:      | :---:           | :---:  |
 |          | Aeropuerto | CentroComercial | Parque |
 |usu1      |   | · |   |
