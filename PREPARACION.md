@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ## Preparación del sistema - configuración de las máquinas remotas
     En las siguientes secciones se va a proceder a explicar aquellas acciones tomadas
     como preparativos para el desarrollo de esta y las siguientes prácticas.
@@ -45,7 +43,6 @@ configuración:
     > Claramente con contraseñas distintas y personales
 - Ambas partes serán configuradas en cuanto a la interconectividad
     > Se ahonda más adelante sobre este aspecto
->>>>>>> AdInforme/Informe-Preparacion
 
 
 ### Configuración de la máquina virtual
