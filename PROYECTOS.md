@@ -151,4 +151,9 @@ De esta manera, el ejecutivo que lance el programa tomará temporalmente el perm
 
 > Recordemos que el permiso de ejecución se muestra con la "s" minúscula
 
+
+Con esto ya podríamos considerar una correcta configuración de los proyectos y su entorno de trabajo.
+
+
+<br>
 ![logo](icono-ull-negro.png)
