@@ -27,17 +27,46 @@ Para realizar este proceso es necesario modificar el archivo **/etc/shadow**, me
     fragilidad, sería mucho mas conveniente y seguro trabajar con un comando que se dedicara explícitamente a la
     modificacion del fichero /etc/shadow
 
->**chage --maxdays 90**
+````chage --maxdays 90 ````
 
->**chage --warndays 1**
+````chage --warndays 1````
 
->**chage --inactive 2 [ usuario ]**
+````chage --inactive 2 [ usuario ]````
 
 Con la opción **maxdays** modificamos el tiempo máximo que puede transcurrir con la contraseña actual. Una vez sobrepasado este tiempo es obligatorio su cambio. En cuanto a **warndays**, su uso es necesario para indicar que el usuario será notificado un día antes (en este caso) de la caducidad de su contraseña. Por último, la opción **inactive** indica los días que habrá entre la caducidad de la contraseña y el bloqueo de la cuenta del usuario.
 
 //insertar foto etcshadow//S
 
 
+/
+│
+└───boot
+│
+└───dev   
+│   
+└───etc
+|
+└───export       
+│       
+│
+└───home
+│   │
+│   └───ejec1
+│   │
+│   └───ejec2
+│   │
+│   └───usu1
+│   │
+│   └───usu2
+│   │
+│   └───usu3
+│   │
+│   └───usu4
+│   │
+│   └───usu5
+│   │
+│   └───usu6
+│   
 
 
 
